@@ -1,0 +1,149 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+  font-size: 1.25em;
+  font-weight: 400;
+  font-family: "Times New Roman", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: white;
+}
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  border-bottom: 1px solid grey;
+}
+/*Navigation*/
+#header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  padding: 0.5rem 1rem;
+  font-family: "Anton", sans-serif;
+  background-color: white;
+}
+#nav-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  display: inline;
+  margin: 1rem;
+}
+#nav-bar a {
+  text-decoration: none;
+  color: grey;
+}
+.logo-container img {
+  max-width: 100px;
+}
+.nav-link:hover,
+.nav-link:focus {
+  border-bottom: 1px solid black;
+}
+#nav-bar a:hover {
+  color: black;
+}
+
+#video {
+  width: 100%;
+  height: 100%;
+  margin-top: 250px;
+}
+.product-content {
+  display: flex;
+  flex-direction: column;
+}
+.product-wrapper img {
+  max-width: 500px;
+}
+h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+.link {
+  text-decoration: none;
+  color: black;
+}
+.comment-profile {
+  display: flex;
+  max-width: 220px;
+  justify-content: space-between;
+}
+.comment-profile img {
+  border-radius: 50%;
+}
+.date {
+  display: flex;
+  justify-content: space-between;
+}
+.lighter {
+  font-style: italic;
+  font: lighter;
+  color: grey;
+}
+.bold {
+  font: bolder;
+  font-weight: 500;
+}
+.name {
+  font: bold;
+}
+#form {
+  padding: 1rem;
+}
+textarea {
+  max-width: 1200px;
+  width: 100%;
+  height: 20vh;
+  margin: 1rem 0;
+}
+button {
+  padding: 0.7rem;
+  background-color: white;
+  font-size: 1rem;
+  color: black;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: grey;
+  color: white;
+}
+.btn:hover {
+  background-color: grey;
+  color: white;
+}
+.btn {
+  max-width: 200px;
+  width: 100%;
+  align-items: center;
+  padding: 0.7rem;
+  background-color: white;
+  font-size: 1rem;
+  color: black;
+  border-radius: 5px;
+}
+.comment,
+.product-details {
+  padding: 1rem;
+}
+@media (min-width: 600px) {
+  #nav-bar,
+  .product-content {
+    flex-direction: row-reverse;
+  }
+  #video {
+    margin-top: 200px;
+ 
+ }
+}

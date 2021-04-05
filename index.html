@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <title>Lake Wood Acoustic</title>
+  </head>
+  <body>
+    <header id="header">
+        <nav id="nav-bar">
+          <div class="logo-container">
+            <img src="./img/logo.jpg" alt="logo" id="header-img" />
+          </div>
+          <ul>
+            <li ><a class="nav-link" href="#product-vid">Home</a></li>
+            <li ><a class="nav-link" href="#product">Product</a></li>
+            <li ><a class="nav-link" href="#reviews">Reviews</a></li>
+          </ul>
+        </nav>
+    </header>
+
+    <main>
+      <section id="product-vid">
+        <div class="video-wrapper">
+          <video autoplay muted loop id="video">
+            <source src="./lakewood.mp4" type="video/mp4" />
+          </video>        
+        </div>
+      </section>
+
+      <section id="product">
+        <h1>Featuring Lakewood acoustic</h1>
+        <div class="product-content">
+          <div class="product-wrapper">
+            <img class="tp-shirt" src="./img/Lakewood.jpg" alt="tshirt" />
+          </div>
+
+          <div class="product-details">
+            <h2>Lakewood acoustic</h2>
+            <p>
+              We are proud to present our new Lakewood catalogue 2021! It features all models of the new Edition Series 2021 as well as the models series Natural, Deluxe, Premium and Signature Series. Of course, we didn't miss out on the Lakewood Customshop, which is explained comprehensively in the new catalogue.
+            </p>
+            <h2>Price: $ 3,426</h2>
+            <button class="button"><a class="link" href="https://www.lakewood-guitars.com/dealers.php" target="_blank"> Click to Order</a></button>
+          </div>
+        </div>
+      </section>
+
+      <section id="reviews">
+        <h1>Reviews</h1>
+        <div class="comment">
+          <div class="comment-profile">
+            <img src="./img/person1.jpg" alt="profile1" />
+            <p class="name">Jasmine Chan</p>
+          </div>
+          <div class="comment-op">
+            <div class="date">
+              <p class="bold">hatdog.</p>
+              <p class="lighter">27/7/21</p>
+            </div>
+            <p>
+              expensive as hell but nice guitar.!
+            </p>
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="comment-profile">
+            <img src="./img/person2.jpg" alt="profile2" />
+            <p class="name">Jackie chan</p>
+          </div>
+          <div class="comment-op">
+            <div class="date">
+              <p class="bold">hatdog.</p>
+              <p class="lighter">27/7/21</p>
+            </div>
+              Awit sana all makaka bili nan tagnina kamahal na guitara yan pumatay sika.
+            </p>
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="comment-profile">
+            <img src="./img/person3.jpg" alt="profile3" />
+            <p class="name">warlordwildtyron</p>
+          </div>
+          <div class="comment-op">
+            <div class="date">
+              <p class="bold">Hatdog.</p>
+              <p class="lighter">27/7/21</p>
+            </div>
+              fried chicken adobo pancit.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="footer">
+        <form id="form" action="https://www.freecodecamp.com/email-submit)">
+          
+      <div class="vertical-line"></div>
+
+          <h1>Thank you for visiting</h1>
+          <p>Leave a review</p>
+          <div class="form-group">
+            <label for="email" id="email-label"
+              >Email
+              <input
+                id="email"
+                type="email"
+                name="email"
+                placeholder="Enter your email here"
+                
+                required
+              />
+            </label>
+          </div>
+        <div class="form-group">
+          <textarea
+            type="text"
+            placeholder="Enter your comments here"
+          ></textarea>
+        </div>
+        <div class="form-group">
+          <input type="submit" id="submit" value="Submit" class="btn"/>
+        </div>
+      </form>
+      </section>
+    </main>
+  </body>
+</html>
